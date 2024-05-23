@@ -75,7 +75,7 @@ const Footer = (props) => {
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
-        {instagram && (
+        {/* {instagram && (
           <a
             href={`https://www.instagram.com/${instagram}`}
             target="_blank"
@@ -83,7 +83,7 @@ const Footer = (props) => {
           >
             <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
-        )}
+        )} */}
         {linkedIn && (
           <a
             href={`https://www.linkedin.com/in/${linkedIn}`}
@@ -93,7 +93,7 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
+        {/* {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
@@ -111,7 +111,7 @@ const Footer = (props) => {
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
-        )}
+        )} */}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
